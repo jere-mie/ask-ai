@@ -68,7 +68,7 @@ Reload your profile:
 
 ## Examples
 
-```bash
+```
 ask how to list docker containers
 ask what is the capital of france
 ask explain recursion in simple terms
@@ -146,8 +146,8 @@ While most models on OpenRouter (including the default `google/gemini-2.5-flash-
 
 For example, the following cost $0.0000469 USD:
 
-```sh
-$: ask explain recursion in simple terms
+```
+$ ask explain recursion in simple terms
 Recursion is when a function calls itself.
 
 Think of Russian nesting dolls: to open the smallest doll, you first have to open the larger doll it's inside of, and then the next larger doll, and so on, until you get to the smallest one.
