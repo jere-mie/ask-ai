@@ -2,6 +2,8 @@
 
 A lightweight CLI tool for querying LLMs directly from your terminal. Powered by [OpenRouter](https://openrouter.ai).
 
+![Demo](recording.gif)
+
 ## Features
 
 - 🚀 Quick question-answering from the terminal
