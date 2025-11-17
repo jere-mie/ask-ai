@@ -140,6 +140,23 @@ Try quoting your entire question:
 ask "What does 'hello world' mean?"
 ```
 
+## Pricing Notes
+
+While most models on OpenRouter (including the default `google/gemini-2.5-flash-lite`) are paid, the cost per prompt is typically **extremely low** - usually a fraction of a cent per query. For typical terminal usage, you'll spend very little.
+
+For example, the following cost $0.0000469 USD:
+
+```sh
+$: ask explain recursion in simple terms
+Recursion is when a function calls itself.
+
+Think of Russian nesting dolls: to open the smallest doll, you first have to open the larger doll it's inside of, and then the next larger doll, and so on, until you get to the smallest one.
+
+In programming, a recursive function solves a problem by breaking it down into smaller, identical subproblems. It keeps calling itself with increasingly smaller versions of the problem until it reaches a "base case" – a simple version of the problem that can be solved directly, without further recursion.
+```
+
+However, if you really don't want to spend any money, OpenRouter also offers several **free models** that you can use without incurring any cost. Check the [OpenRouter models page](https://openrouter.ai/models?max_price=0) for the latest free options and use them by setting `OPENROUTER_MODEL` in your `.env` file.
+
 ## License
 
 See [LICENSE](LICENSE) file for details.
